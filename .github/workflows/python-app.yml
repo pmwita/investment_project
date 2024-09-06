@@ -19,7 +19,7 @@ jobs:
         fetch-depth: 0  # Fetch all history for all tags and branches.
 
     - name: Set up Node.js 20
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v20
       with:
         node-version: '20'
 
